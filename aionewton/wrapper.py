@@ -26,7 +26,7 @@ async def _make_request(operation, expression):
     """Internal function to request a page by using a given string"""
 
     encoded_expression = quote(expression, safe='')
-    url = f"https://newton.now.sh/{operation}/{encoded_expression}"
+    url = f"https://newton.now.sh/api/v2/{operation}/{encoded_expression}"
 
     async with aiohttp.ClientSession() as session:
         async with session.get(url) as req:

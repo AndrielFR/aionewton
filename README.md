@@ -5,11 +5,7 @@ The Github project can be found [here.](https://github.com/aunyks/newton-api)
 
 ## Installation
 ```
-pip install aionewton
-```
-For the latest development version:
-```
-pip install git+https://github.com/ilevn/aionewton
+pip install git+https://github.com/AndrielFR/aionewton
 ```
 
 ## Example
